@@ -21,5 +21,6 @@ jenkins:
     Global: {}
 prow: {}
 core-team-service:
-  - name: MONGO_DATABASE
-  value: production
+  - env:
+    - name: MONGO_DATABASE
+      value: "production"
