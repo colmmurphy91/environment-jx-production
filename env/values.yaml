@@ -20,3 +20,6 @@ jenkins:
   Servers:
     Global: {}
 prow: {}
+core-team-service:
+  - name: MONGO_DATABASE
+  value: production
