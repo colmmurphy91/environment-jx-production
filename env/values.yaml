@@ -23,4 +23,4 @@ prow: {}
 core-team-service:
   env:
     - name: MONGO_DATABASE
-      value: "production"
+      value: production
